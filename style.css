@@ -1,0 +1,50 @@
+#mitad-izq {
+  background-color: #ffadad;
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-top-right-radius: 175px;
+  border-bottom-right-radius: 175px;
+}
+body {
+  background-color: #402e2e;
+}
+.reloj {
+  height: 70vh;
+  padding-top: 15%;
+}
+
+.num-reloj {
+  font-size: 12rem;
+  line-height: 1;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#grid-derec {
+  width: 350px;
+  height: 250px;
+  background-color: #ffadad;
+  margin: 80px 40px 80px 40px;
+  border-radius: 25px;
+  text-align: center;
+}
+#tabla-derecha {
+  position: absolute;
+
+  display: table;
+}
+#div-tabla {
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
