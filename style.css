@@ -1,40 +1,47 @@
+:root {
+	--color-background: #402e2e;
+}
+
+
+/* Forma de tener variables en css. Asi no tienes que cambiar despues el color buscando en todo el archivo cuando sea muy grande. Mayor legibilidad */
 body {
-  background-color: #402e2e;
+	background-color: var(--color-background)
+		/* background-color: #402e2e; */
 }
 
 #mitad-izq {
-  background-color: #ffadad;
-  width: 50%;
-  height: 100vh;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom:0;
-  border-top-right-radius: 175px;
-  border-bottom-right-radius: 175px;
+	background-color: #ffadad;
+	width: 50%;
+	height: 100vh;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	border-top-right-radius: 175px;
+	border-bottom-right-radius: 175px;
 }
 
 #grid-derec {
-  width: 350px;
-  height: 250px;
-  background-color: #ffadad;
-  margin: 80px 40px 80px 40px;
-  border-radius: 25px;
-  text-align: center;
+	width: 350px;
+	height: 250px;
+	background-color: #ffadad;
+	margin: 80px 40px 80px 40px;
+	border-radius: 25px;
+	text-align: center;
 }
 
 #tabla-derecha {
-  position: absolute;
-  display: table;
+	position: absolute;
+	display: table;
 }
 
 #div-tabla {
-  width: 50%;
-  height: 100vh;
-  position: absolute;
-  right: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	width: 50%;
+	height: 100vh;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
