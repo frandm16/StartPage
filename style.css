@@ -39,6 +39,9 @@ body {
 	position: absolute;
 	display: table;
 }
+td{
+	align-items: center;
+}
 
 #div-tabla {
 	width: 50%;
@@ -52,12 +55,23 @@ body {
 }
 
 img {
-	width: 125px;
-	filter: grayscale(100) brightness(0);
+	width:75px;
+	
+	filter: brightness(0);
 }
 
 #logo {
 	width: 450px;
 	padding-top: 250px;
 	padding-bottom: 100px;
+}
+a {
+	display: flex;
+	width: 350px;
+	height: 250px;
+	background-color: var(--color-secondary);
+	margin: 80px 40px 80px 40px;
+	border-radius: 25px;
+	justify-content: center;
+	align-items: center;
 }
