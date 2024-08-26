@@ -1,16 +1,19 @@
 :root {
-	--color-background: #402e2e;
+	--color-background: #003049;
+	--color-secondary: #669bbc;
 }
+/*
+Posibles colores para el fondo:
+#00b4d8 , #0077b6 , #03045e , #8ecae6 , #90e0ef , #023047
+*/
 
-
-/* Forma de tener variables en css. Asi no tienes que cambiar despues el color buscando en todo el archivo cuando sea muy grande. Mayor legibilidad */
 body {
-	background-color: var(--color-background)
-		/* background-color: #402e2e; */
+	background-color: var(--color-background);
+	
 }
 
 #mitad-izq {
-	background-color: #ffadad;
+	background-color: var(--color-secondary);
 	width: 50%;
 	height: 100vh;
 	position: absolute;
@@ -19,15 +22,17 @@ body {
 	bottom: 0;
 	border-top-right-radius: 175px;
 	border-bottom-right-radius: 175px;
+	text-align: center;
 }
 
 #grid-derec {
 	width: 350px;
 	height: 250px;
-	background-color: #ffadad;
+	background-color: var(--color-secondary);
 	margin: 80px 40px 80px 40px;
 	border-radius: 25px;
 	text-align: center;
+	align-content: center;
 }
 
 #tabla-derecha {
@@ -44,4 +49,15 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+img {
+	width: 125px;
+	filter: grayscale(100) brightness(0);
+}
+
+#logo {
+	width: 450px;
+	padding-top: 250px;
+	padding-bottom: 100px;
 }
