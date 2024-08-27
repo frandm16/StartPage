@@ -75,3 +75,13 @@ a {
 	justify-content: center;
 	align-items: center;
 }
+
+a:hover {
+	box-shadow: inset 0 0 0 5px #84c9f4, 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+	transition: .75s ;
+}
+
+#mitad-izq:hover {
+	box-shadow:  5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+	transition: .75s;
+}
