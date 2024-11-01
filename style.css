@@ -70,3 +70,18 @@ a:hover {
 	box-shadow:  5px 5px 5px 5px var(--shadow-color);
 	transition: .75s;
 }
+
+svg{
+	width: 80px;
+}
+
+#triangulo{
+
+	fill: var(--color-secondary);
+}
+path{
+	fill: var(--color-background);
+}
+#logo-uma{
+	width: 100px;
+}
