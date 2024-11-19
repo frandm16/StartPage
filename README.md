@@ -1,3 +1,3 @@
 # Custom StartPage
 
-<img alt="startpage"  src="imagenes/EjemploStartPag.png" />
+<img alt="startpage"  src="imagenes/EjemploStartPage.png" />
